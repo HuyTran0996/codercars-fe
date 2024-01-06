@@ -2,7 +2,8 @@ import axios from "axios";
 
 const apiService = axios.create({
   // baseURL: process.env.REACT_APP_BACKEND_API,
-  baseURL: "http://127.0.0.1:5000/api",
+  //   baseURL: "http://127.0.0.1:5000/api",
+  baseURL: "https://codercars-be-c1ee.onrender.com/api",
 });
 
 apiService.interceptors.request.use(
